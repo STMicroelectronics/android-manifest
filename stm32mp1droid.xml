@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="default.xml"/>
+  <remote fetch="https://github.com/STMicroelectronics" name="origin"/>
+
+  <!-- STM32MP1-BSP -->
+  <project name="device-stm-bootloader" path="device/stm/stm32mp1-bootloader" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="device-stm-kernel" path="device/stm/stm32mp1-kernel" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="device-stm-tee" path="device/stm/stm32mp1-tee" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="device-stm-openocd" path="device/stm/stm32mp1-openocd" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+
+  <!-- STM32MP1-Common -->
+  <project name="device-stm-common" path="device/stm/stm32mp1" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-allocator" path="device/stm/stm32mp1/peripheral/allocator" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-audio" path="device/stm/stm32mp1/peripheral/audio" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-bootctrl" path="device/stm/stm32mp1/peripheral/bootctrl" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-camera" path="device/stm/stm32mp1/peripheral/camera" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-composer" path="device/stm/stm32mp1/peripheral/composer" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-copro" path="device/stm/stm32mp1/peripheral/copro" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-health" path="device/stm/stm32mp1/peripheral/health" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-lights" path="device/stm/stm32mp1/peripheral/lights" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-memtrack" path="device/stm/stm32mp1/peripheral/memtrack" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-oemlock" path="device/stm/stm32mp1/peripheral/oemlock" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-thermal" path="device/stm/stm32mp1/peripheral/thermal" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-usb" path="device/stm/stm32mp1/peripheral/usb" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+  <project name="hardware-peripheral-wifi" path="device/stm/stm32mp1/peripheral/wifi" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+
+  <!-- STM32MP1-Boards -->
+  <project name="device-stm-eval" path="device/stm/stm32mp1/eval" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+
+  <!-- ST CoproService -->
+  <project name="packages-apps-coproservice" path="packages/apps/CoproService" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+ 
+  <!-- ST Applications -->
+  <project name="vendor-stm-app" path="vendor/stm/app" remote="origin" revision="refs/tags/st-android-9.0.0-2019-09-27"/>
+
+  <!-- Remove unused Projects-->
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/common" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/mips" />
+  <remove-project name="device/generic/mips64" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-mips" />
+  <remove-project name="device/generic/mini-emulator-mips64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/accessory/arduino" />
+  <remove-project name="device/google/accessory/demokit" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_common" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/marlin" />
+  <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project name="device/linaro/bootloader/edk2" />
+  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/sample" />
+  <remove-project name="platform/hardware/akm" />
+  <remove-project name="platform/hardware/broadcom/libbt"/>
+  <remove-project name="platform/hardware/broadcom/wlan"  />
+  <remove-project name="platform/hardware/intel/audio_media"  />
+  <remove-project name="platform/hardware/intel/bootstub"  />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="platform/hardware/intel/common/libmix"  />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="platform/hardware/intel/common/libva" />
+  <remove-project name="platform/hardware/intel/common/libwsbm"  />
+  <remove-project name="platform/hardware/intel/common/omx-components"  />
+  <remove-project name="platform/hardware/intel/common/utils"/>
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="platform/hardware/intel/img/hwcomposer" />
+  <remove-project name="platform/hardware/intel/img/psb_headers" />
+  <remove-project name="platform/hardware/intel/img/psb_video" />
+  <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/hardware/invensense" />
+  <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bt"  />
+  <remove-project name="platform/hardware/qcom/camera"  />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr"  />
+  <remove-project name="platform/hardware/qcom/bootctrl"  />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps"/>
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
+  <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/neuralnetworks/hvxservice" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm845/bt" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/gps" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sdm845/thermal" />
+  <remove-project name="platform/hardware/qcom/sdm845/vr" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
+</manifest>
