@@ -7,7 +7,7 @@ It is part of the STMicroelectronics delivery for Android (see the [delivery][] 
 
 ## Description ##
 
-"STM32MP15x distribution for Android" (v2.0.0) tag: st-android-11.0.0-2021-01-29
+"STM32MP15x distribution for Android" (v2.0.1) tag: st-android-11.0.0-2021-06-01
 
 ## Documentation ##
 
@@ -26,5 +26,5 @@ This module can't be used alone. It is part of the STMicroelectronics delivery f
 This module contains several files:
 
 **Manifests:**
-* `default.xml`: the official manifest from AOSP (tag android-11.0.0_r27)
+* `default.xml`: the official manifest from AOSP (tag android-11.0.0_r37)
 * `stm32mp1droid.xml`: the STMicroelectronics manifest add-on for Android (including the default.xml)
