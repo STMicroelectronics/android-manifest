@@ -4,36 +4,36 @@
   <remote fetch="https://github.com/STMicroelectronics" name="origin"/>
 
   <!-- STM32MP1-BSP -->
-  <project name="device-stm-bootloader" path="device/stm/stm32mp1-bootloader" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="device-stm-kernel" path="device/stm/stm32mp1-kernel" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="device-stm-tee" path="device/stm/stm32mp1-tee" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="device-stm-openocd" path="device/stm/stm32mp1-openocd" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="stm32wrapper4dbg" path="device/stm/stm32mp1-openocd/stm32wrapper4dbg" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
+  <project name="device-stm-bootloader" path="device/stm/stm32mp1-bootloader" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="device-stm-kernel" path="device/stm/stm32mp1-kernel" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="device-stm-tee" path="device/stm/stm32mp1-tee" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="device-stm-openocd" path="device/stm/stm32mp1-openocd" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="stm32wrapper4dbg" path="device/stm/stm32mp1-openocd/stm32wrapper4dbg" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
 
   <!-- STM32MP1-Common -->
-  <project name="device-stm-common" path="device/stm/stm32mp1" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="miscgen" path="device/stm/stm32mp1/core/miscgen" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-allocator" path="device/stm/stm32mp1/peripheral/allocator" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-audio" path="device/stm/stm32mp1/peripheral/audio" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-camera" path="device/stm/stm32mp1/peripheral/camera" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-composer" path="device/stm/stm32mp1/peripheral/composer" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-copro" path="device/stm/stm32mp1/peripheral/copro" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-health" path="device/stm/stm32mp1/peripheral/health" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-lights" path="device/stm/stm32mp1/peripheral/lights" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-memtrack" path="device/stm/stm32mp1/peripheral/memtrack" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-oemlock" path="device/stm/stm32mp1/peripheral/oemlock" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-thermal" path="device/stm/stm32mp1/peripheral/thermal" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-usb" path="device/stm/stm32mp1/peripheral/usb" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
-  <project name="hardware-peripheral-wifi" path="device/stm/stm32mp1/peripheral/wifi" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
+  <project name="device-stm-common" path="device/stm/stm32mp1" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="miscgen" path="device/stm/stm32mp1/core/miscgen" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-allocator" path="device/stm/stm32mp1/peripheral/allocator" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-audio" path="device/stm/stm32mp1/peripheral/audio" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-camera" path="device/stm/stm32mp1/peripheral/camera" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-composer" path="device/stm/stm32mp1/peripheral/composer" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-copro" path="device/stm/stm32mp1/peripheral/copro" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-health" path="device/stm/stm32mp1/peripheral/health" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-lights" path="device/stm/stm32mp1/peripheral/lights" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-memtrack" path="device/stm/stm32mp1/peripheral/memtrack" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-oemlock" path="device/stm/stm32mp1/peripheral/oemlock" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-thermal" path="device/stm/stm32mp1/peripheral/thermal" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-usb" path="device/stm/stm32mp1/peripheral/usb" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
+  <project name="hardware-peripheral-wifi" path="device/stm/stm32mp1/peripheral/wifi" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
 
   <!-- STM32MP1-Boards -->
-  <project name="device-stm-eval" path="device/stm/stm32mp1/eval" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
+  <project name="device-stm-eval" path="device/stm/stm32mp1/eval" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
 
   <!-- ST CoproService -->
-  <project name="packages-apps-coproservice" path="packages/services/CoproService" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
+  <project name="packages-apps-coproservice" path="packages/services/CoproService" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
  
   <!-- ST Applications -->
-  <project name="vendor-stm-app" path="vendor/stm/app" remote="origin" revision="refs/tags/st-android-11.0.0-2021-06-01"/>
+  <project name="vendor-stm-app" path="vendor/stm/app" remote="origin" revision="refs/tags/st-android-11.0.0-2021-08-31"/>
 
   <!-- Remove unused Projects-->
   <remove-project name="device/amlogic/yukawa" />
