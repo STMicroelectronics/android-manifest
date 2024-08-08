@@ -1,19 +1,17 @@
-# STM32MP15x distribution for Android #
+# OpenSTDroid #
 
-This module contains the manifest of the STM32MP15x distribution for Android.<br/>
-It is part of the STMicroelectronics delivery for Android (see the [delivery][release notes] for more information).
+This module contains the manifest of the to STM32MPU OpenSTDroid distribution.
+
+It is part of the STMicroelectronics STM32MPU delivery for Android.
 
 ## Description ##
 
-"STM32MP15x distribution for Android" (v2.0.2) tag: st-android-11.0.0-2021-08-31
+"STM32MPU Embedded Software distribution for Android v5.1"
 
 ## Documentation ##
 
-* The [release notes][] document the information on the release.
-* The [distribution package][] provides detailed information on how to use this delivery.
-
-[release notes]: https://wiki.st.com/stm32mpu/wiki/STM32MP15_distribution_for_Android_release_note_-_v2.0.0
-[distribution package]: https://wiki.st.com/stm32mpu/wiki/STM32MP1_Distribution_Package_for_Android
+* The [stm32mp2 release notes][] document the information on the STM32MPU release.
+[stm32mp2 release notes]: https://wiki.st.com/stm32mpu/wiki/STM32_MPU_OpenSTDroid_release_note_-_v5.1.0
 
 ## Dependencies ##
 
@@ -24,8 +22,8 @@ This module can't be used alone. It is part of the STMicroelectronics delivery f
 This module contains several files:
 
 **Manifests:**
-* `default.xml`: the official manifest from AOSP (tag android-11.0.0_r37)
-* `stm32mp1droid.xml`: the STMicroelectronics manifest add-on for Android (including the default.xml)
+* `default.xml`: the official manifest from AOSP
+* `stm32mp2droid.xml`: the STM32MP25 manifest add-on for Android (including the default.xml)
 
 ## License ##
 
@@ -34,4 +32,4 @@ Customers may not use this package except in compliance with the [software licen
 
 All components and their respective licenses are listed [here][android license].
 
-[android license]: https://wiki.st.com/stm32mpu/wiki/STM32MPU_distribution_for_Android_licenses_-_v2.0.0
+[android license]: https://wiki.st.com/stm32mpu/wiki/LegalInformation:OpenSTDroid_licenses_-_v5.1.0
