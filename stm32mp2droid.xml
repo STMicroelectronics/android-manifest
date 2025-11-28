@@ -1,43 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="default.xml"/>
-  <remote fetch="https://github.com/STMicroelectronics" name="origin"/>
-  <remote name="linuxtv"
-          fetch="https://git.linuxtv.org/"/>
+
+  <remote name="origin" fetch="https://github.com/STMicroelectronics"/>
+  <remote name="linuxtv" fetch="https://git.linuxtv.org/"/>
+  <remote name="github" fetch="https://github.com"/>
 
   <!-- STM32MP2-BSP -->
-  <project name="device-stm-bootloader" path="device/stm/stm32mp2-bootloader" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="device-stm-kernel" path="device/stm/stm32mp2-kernel" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="device-stm-tee" path="device/stm/stm32mp2-tee" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="device-stm-bootloader" path="device/stm/stm32mp2-bootloader" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="stm32-ddr-phy-binary" path="device/stm/stm32mp2-bootloader/prebuilt/ddr" remote="origin" revision="77447cf214eadf128e487fcb10a4a78cd4ab6d56"/>
+  <project name="fiptool" path="device/stm/stm32mp2-bootloader/source/tools/fiptool" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="device-stm-kernel" path="device/stm/stm32mp2-kernel" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="device-stm-tee" path="device/stm/stm32mp2-tee" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
 
   <!-- STM32MP2-DEBUG -->
-  <project name="device-stm-openocd" path="device/stm/stm32mp2-openocd" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="device-stm-openocd" path="device/stm/stm32mp2-openocd" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
   <project name="stm32wrapper4dbg" path="device/stm/stm32mp2-openocd/stm32wrapper4dbg" remote="origin" revision="refs/tags/v4.0.0"/>
 
   <!-- STM32MP2-Common -->
-  <project name="device-stm-common" path="device/stm/stm32mp2" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="miscgen" path="device/stm/stm32mp2/core/miscgen" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="device-stm-common" path="device/stm/stm32mp2" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="miscgen" path="device/stm/stm32mp2/core/miscgen" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
 
-  <project name="hardware-peripheral-allocator" path="device/stm/stm32mp2/hardware/allocator" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-audio" path="device/stm/stm32mp2/hardware/audio" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-camera" path="device/stm/stm32mp2/hardware/camera" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-composer" path="device/stm/stm32mp2/hardware/composer" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-health" path="device/stm/stm32mp2/hardware/health" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-lights" path="device/stm/stm32mp2/hardware/lights" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-memtrack" path="device/stm/stm32mp2/hardware/memtrack" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-oemlock" path="device/stm/stm32mp2/hardware/oemlock" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-thermal" path="device/stm/stm32mp2/hardware/thermal" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-usb" path="device/stm/stm32mp2/hardware/usb" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
-  <project name="hardware-peripheral-wifi" path="device/stm/stm32mp2/hardware/wifi" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="hardware-peripheral-allocator" path="device/stm/stm32mp2/hardware/allocator" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-audio" path="device/stm/stm32mp2/hardware/audio" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-camera" path="device/stm/stm32mp2/hardware/camera" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-composer" path="device/stm/stm32mp2/hardware/composer" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-health" path="device/stm/stm32mp2/hardware/health" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-lights" path="device/stm/stm32mp2/hardware/lights" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-memtrack" path="device/stm/stm32mp2/hardware/memtrack" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-oemlock" path="device/stm/stm32mp2/hardware/oemlock" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-thermal" path="device/stm/stm32mp2/hardware/thermal" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-usb" path="device/stm/stm32mp2/hardware/usb" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-peripheral-wifi" path="device/stm/stm32mp2/hardware/wifi" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="hardware-hdmi-cec" path="device/stm/stm32mp2/hardware/hdmi_cec" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+
+  <!-- STM32MP2-Copro -->
+  <project name="hardware-interfaces" path="device/stm/stm32mp2/hardware/interfaces" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="copro-services" path="device/stm/stm32mp2/services/CoproService" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
 
   <!-- STM32MP2 V4L UTILS -->
   <project name="v4l-utils.git" path="device/stm/stm32mp2/core/v4l-utils" remote="linuxtv" revision="3320eac97ed1f02ea482c8f71afc8990e1398a9d"/>
 
   <!-- STM32MP2-Boards -->
-  <project name="device-stm-eval" path="device/stm/stm32mp2/eval" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="device-stm-eval" path="device/stm/stm32mp2/eval" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+  <project name="device-stm-dk" path="device/stm/stm32mp2/dk" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
+
+  <!-- STM32MP2-Firmware -->
+  <project name="murata-wireless/cyw-bt-patch" path="device/stm/stm32mp2/dk/firmware/cypress/cyw-bt-patch" remote="github" revision="9d24c254dae92af99ddfd661a4ea30af69190038"/>
+  <project name="murata-wireless/cyw-fmac-fw" path="device/stm/stm32mp2/dk/firmware/cypress/cyw-fmac-fw" remote="github" revision="e024d0c0a3ab241f547cb44303de7e1b49f0ca78"/>
+  <project name="murata-wireless/cyw-fmac-nvram" path="device/stm/stm32mp2/dk/firmware/cypress/cyw-fmac-nvram" remote="github" revision="9b7d93eb3e13b2d2ed8ce3a01338ceb54151b77a"/>
 
   <!-- ST Applications -->
-  <project name="vendor-stm-app" path="vendor/stm/app" remote="origin" revision="refs/tags/st-android-13.0.0-2024-07-31"/>
+  <project name="vendor-stm-app" path="vendor/stm/app" remote="origin" revision="refs/tags/st-android-13.0.0-2025-11-21"/>
 
   <!-- select default external version -->
   <extend-project name="platform/external/drm_hwcomposer" revision="197c32dc5b1164f1837edcea32c12bd2d4cf8e77"/>
@@ -46,13 +60,6 @@
   <!-- Remove unused Projects-->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/car" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
   <remove-project name="device/google/barbet" />
   <remove-project name="device/google/barbet-sepolicy" />
@@ -105,8 +112,6 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="device/sample" />
-  <remove-project name="platform/hardware/broadcom/libbt"/>
-  <remove-project name="platform/hardware/broadcom/wlan" />
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="platform/hardware/nxp/nfc" />
