@@ -1,23 +1,22 @@
 # OpenSTDroid #
 
-This module contains the manifest of the to STM32MPU OpenSTDroid distribution.
-
+This module contains the manifest of the STM32MP25 OpenSTDroid distribution.
 It is part of the STMicroelectronics STM32MPU delivery for Android.
 
 ## Description ##
 
-"STM32MPU Embedded Software distribution for Android v5.1"
+OpenSTDroid v6.2.0 for STM32MP25 device.
 
 ## Documentation ##
 
 * The [stm32mp2 release notes][] document the information on the STM32MPU release.
-[stm32mp2 release notes]: https://wiki.st.com/stm32mpu/wiki/STM32_MPU_OpenSTDroid_release_note_-_v5.1.0
+[stm32mp2 release notes]: https://wiki.st.com/stm32mpu/wiki/STM32_MPU_OpenSTDroid_release_note_-_v6.2.0
 
 ## Dependencies ##
 
 This module can't be used alone. It is part of the STMicroelectronics delivery for Android.
 
-## Containing ##
+## Contents ##
 
 This module contains several files:
 
@@ -32,4 +31,4 @@ Customers may not use this package except in compliance with the [software licen
 
 All components and their respective licenses are listed [here][android license].
 
-[android license]: https://wiki.st.com/stm32mpu/wiki/LegalInformation:OpenSTDroid_licenses_-_v5.1.0
+[android license]: https://wiki.st.com/stm32mpu/wiki/LegalInformation:OpenSTDroid_licenses_-_v6.2.0
